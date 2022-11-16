@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Thiago\Workspace\Uni\DCA0212\LatchD\simulation\qsim
+vLatchD
+Z1 !s100 em9W^bZP^8lhOzk5MoYPz2
+Z2 ILg5<VDM4Zc4X`j<FOhn9a2
+Z3 Vg4G>AVVV_?Kl0:A47lg5V2
+Z4 dC:\Users\Thiago\Workspace\Uni\DCA0212\LatchD\simulation\qsim
+Z5 w1668560338
+Z6 8LatchD.vo
+Z7 FLatchD.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|LatchD.vo|
+Z10 o-work work -O0
+Z11 n@latch@d
+!i10b 1
+!s85 0
+Z12 !s108 1668560338.929000
+Z13 !s107 LatchD.vo|
+!s101 -O0
+vLatchD_vlg_check_tst
+!i10b 1
+Z14 !s100 =f60izkjagco@0OJ7S?Ub0
+Z15 Izd1OGY6F8`SDozj`>`b7e0
+Z16 VTjZN_70096`]b`Y4Af15^2
+R4
+Z17 w1668560337
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1668560338.982000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 n@latch@d_vlg_check_tst
+vLatchD_vlg_sample_tst
+!i10b 1
+Z24 !s100 C0IdVnn1nle<Jba5ak:[P1
+Z25 ILcz?^?<Lm^W0K]]3DSWOW0
+Z26 V8Z]cmMN_l@PQZ3ThlVTm71
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@latch@d_vlg_sample_tst
+vLatchD_vlg_vec_tst
+!i10b 1
+!s100 L>UOMSkJYWnf<U]_9FFZB1
+IOk4<f9A8`MF=A;5oaZXlW0
+Z28 VXPH;_:feUUZCIkOgYTgJK1
+R4
+R17
+R18
+R19
+Z29 L0 154
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@latch@d_vlg_vec_tst

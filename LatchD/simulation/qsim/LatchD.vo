@@ -1,0 +1,150 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
+
+// DATE "11/15/2022 21:58:58"
+
+// 
+// Device: Altera EP4CGX15BF14C6 Package FBGA169
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module LatchD (
+	D,
+	c,
+	Q);
+input 	D;
+input 	c;
+output 	Q;
+
+// Design Ports Information
+// Q	=>  Location: PIN_A7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// c	=>  Location: PIN_A8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// D	=>  Location: PIN_A12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Q~output_o ;
+wire \D~input_o ;
+wire \c~input_o ;
+wire \process_0~0_combout ;
+wire \comb~0_combout ;
+wire \Q$latch~combout ;
+
+
+// Location: IOOBUF_X12_Y31_N2
+cycloneiv_io_obuf \Q~output (
+	.i(\Q$latch~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q~output .bus_hold = "false";
+defparam \Q~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X20_Y31_N8
+cycloneiv_io_ibuf \D~input (
+	.i(D),
+	.ibar(gnd),
+	.o(\D~input_o ));
+// synopsys translate_off
+defparam \D~input .bus_hold = "false";
+defparam \D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X12_Y31_N8
+cycloneiv_io_ibuf \c~input (
+	.i(c),
+	.ibar(gnd),
+	.o(\c~input_o ));
+// synopsys translate_off
+defparam \c~input .bus_hold = "false";
+defparam \c~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X12_Y30_N2
+cycloneiv_lcell_comb \process_0~0 (
+// Equation(s):
+// \process_0~0_combout  = (\D~input_o  & \c~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\D~input_o ),
+	.datad(\c~input_o ),
+	.cin(gnd),
+	.combout(\process_0~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \process_0~0 .lut_mask = 16'hF000;
+defparam \process_0~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X12_Y30_N0
+cycloneiv_lcell_comb \comb~0 (
+// Equation(s):
+// \comb~0_combout  = (!\D~input_o  & \c~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\D~input_o ),
+	.datad(\c~input_o ),
+	.cin(gnd),
+	.combout(\comb~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \comb~0 .lut_mask = 16'h0F00;
+defparam \comb~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X12_Y30_N20
+cycloneiv_lcell_comb Q$latch(
+// Equation(s):
+// \Q$latch~combout  = (!\comb~0_combout  & ((\process_0~0_combout ) # (\Q$latch~combout )))
+
+	.dataa(gnd),
+	.datab(\process_0~0_combout ),
+	.datac(\comb~0_combout ),
+	.datad(\Q$latch~combout ),
+	.cin(gnd),
+	.combout(\Q$latch~combout ),
+	.cout());
+// synopsys translate_off
+defparam Q$latch.lut_mask = 16'h0F0C;
+defparam Q$latch.sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign Q = \Q~output_o ;
+
+endmodule

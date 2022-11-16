@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Thiago\Workspace\Uni\DCA0212\FlipFlopD4BitRegister\simulation\qsim
+vFlipFlopD4BitRegister
+Z1 I=BlFR95Ug85UK0G9JJ<^h0
+Z2 V2S@<FE7@OQ:36ERH1PRTT1
+Z3 dC:\Users\Thiago\Workspace\Uni\DCA0212\FlipFlopD4BitRegister\simulation\qsim
+Z4 w1668563313
+Z5 8FlipFlopD4BitRegister.vo
+Z6 FFlipFlopD4BitRegister.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@flip@flop@d4@bit@register
+!i10b 1
+Z10 !s100 kF?nOHZ5;hIIk`R`m]iW<0
+!s85 0
+Z11 !s108 1668563313.815000
+Z12 !s107 FlipFlopD4BitRegister.vo|
+Z13 !s90 -work|work|FlipFlopD4BitRegister.vo|
+!s101 -O0
+vFlipFlopD4BitRegister_vlg_check_tst
+!i10b 1
+!s100 bo<iILV7mM:PIOhmIXFHn1
+IHD=WHWk>87QCDMi=MVWo]3
+Vjz__GCQP?ZZoIe7LOY0aB1
+R3
+Z14 w1668563311
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z17 !s108 1668563313.872000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@flip@flop@d4@bit@register_vlg_check_tst
+vFlipFlopD4BitRegister_vlg_sample_tst
+!i10b 1
+!s100 _JkZC>24B?0oB?GFWh@l:1
+Izg;B<o5CkfjGd9UJ:33[[1
+V;MKQGz]ic:Bman>NEnnI?1
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@flip@flop@d4@bit@register_vlg_sample_tst
+vFlipFlopD4BitRegister_vlg_vec_tst
+!i10b 1
+!s100 _gRWWC6T=W<cBgLazmhFD1
+IKXcFU?Em0K`OAm_6N8Fgc3
+Vc9LP1TgieA8=JLe<?3>gC2
+R3
+R14
+R15
+R16
+L0 241
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@flip@flop@d4@bit@register_vlg_vec_tst

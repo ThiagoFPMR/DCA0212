@@ -1,0 +1,47 @@
+|LatchD4BitRegister
+I3 => LatchD:L3.D
+I2 => LatchD:L2.D
+I1 => LatchD:L1.D
+I0 => LatchD:L0.D
+clk => LatchD:L0.c
+clk => LatchD:L1.c
+clk => LatchD:L2.c
+clk => LatchD:L3.c
+Q3 <= LatchD:L3.Q
+Q2 <= LatchD:L2.Q
+Q1 <= LatchD:L1.Q
+Q0 <= LatchD:L0.Q
+
+
+|LatchD4BitRegister|LatchD:L0
+D => process_0.IN0
+D => process_0.IN0
+c => process_0.IN1
+c => process_0.IN1
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LatchD4BitRegister|LatchD:L1
+D => process_0.IN0
+D => process_0.IN0
+c => process_0.IN1
+c => process_0.IN1
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LatchD4BitRegister|LatchD:L2
+D => process_0.IN0
+D => process_0.IN0
+c => process_0.IN1
+c => process_0.IN1
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LatchD4BitRegister|LatchD:L3
+D => process_0.IN0
+D => process_0.IN0
+c => process_0.IN1
+c => process_0.IN1
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

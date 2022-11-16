@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Thiago\Workspace\Uni\DCA0212\LatchD4BitRegister\simulation\qsim
+vLatchD4BitRegister
+Z1 IKn2hzVWidUfgG=SJ8M2fQ0
+Z2 V_b3NPI2[8boMaUedSdgO61
+Z3 dC:\Users\Thiago\Workspace\Uni\DCA0212\LatchD4BitRegister\simulation\qsim
+Z4 w1668562982
+Z5 8LatchD4BitRegister.vo
+Z6 FLatchD4BitRegister.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|LatchD4BitRegister.vo|
+Z9 o-work work -O0
+Z10 n@latch@d4@bit@register
+!i10b 1
+Z11 !s100 hNf21X?:298`I0LfPMK9H1
+!s85 0
+Z12 !s108 1668562983.299000
+Z13 !s107 LatchD4BitRegister.vo|
+!s101 -O0
+vLatchD4BitRegister_vlg_check_tst
+!i10b 1
+Z14 !s100 Pf<W`f:mYS95QjLl[KEO[3
+Z15 I?al25NQGD_Z>oVE?A6ood2
+Z16 VazUX3c<E8N23UJnZl>NA@0
+R3
+Z17 w1668562981
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z20 !s108 1668562983.354000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@latch@d4@bit@register_vlg_check_tst
+vLatchD4BitRegister_vlg_sample_tst
+!i10b 1
+Z24 !s100 bM8=U?7cAmiT5TNbJN[B50
+Z25 I<1Mi6ohbe[Qhl4d`F31^L2
+Z26 VfNFI4DldU>8R>oLb^?6@G2
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@latch@d4@bit@register_vlg_sample_tst
+vLatchD4BitRegister_vlg_vec_tst
+!i10b 1
+!s100 9llXK3zzgREFU`SlzJ>OG0
+II_N323Ck1WZ=;KUB:PGQP2
+Z28 V3ZYLm1606;3kL3IMl[4?n0
+R3
+R17
+R18
+R19
+Z29 L0 241
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z30 n@latch@d4@bit@register_vlg_vec_tst

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Thiago\Workspace\Uni\DCA0212\FlipFlopD\simulation\qsim
+vFlipFlopD
+Z1 IQ7UHWAoB_WzLcekEYgV_]0
+Z2 VWeYffP0BN0Y77z1ZEc0?12
+Z3 dC:\Users\Thiago\Workspace\Uni\DCA0212\FlipFlopD\simulation\qsim
+Z4 w1668561031
+Z5 8FlipFlopD.vo
+Z6 FFlipFlopD.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@flip@flop@d
+!i10b 1
+Z10 !s100 DHd@]RcU^jRKIJKLD`HCP3
+!s85 0
+Z11 !s108 1668561032.574000
+Z12 !s107 FlipFlopD.vo|
+Z13 !s90 -work|work|FlipFlopD.vo|
+!s101 -O0
+vFlipFlopD_vlg_check_tst
+!i10b 1
+!s100 i_5:7JAE[XSU[2>J>>ePg0
+IL6HlIol^fe;dkd?:m418C3
+VDf`1n?Ed27^GaITkedade1
+R3
+Z14 w1668561030
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1668561032.633000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@flip@flop@d_vlg_check_tst
+vFlipFlopD_vlg_sample_tst
+!i10b 1
+!s100 b5k=>R=@X@6]gYYgF=UDB1
+I^A=lVdah?iJl;SWTQV5li3
+Vg^];8cScY82kDH5na_[=d0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@flip@flop@d_vlg_sample_tst
+vFlipFlopD_vlg_vec_tst
+!i10b 1
+!s100 ScLi<3OGIP7LLWM78=_h?0
+Ia^_GZ1BMU=NoRW8giWG^H1
+V0NC>8OZc?2PHmV<^gej5N3
+R3
+R14
+R15
+R16
+L0 154
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@flip@flop@d_vlg_vec_tst

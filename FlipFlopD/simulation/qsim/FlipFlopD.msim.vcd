@@ -1,0 +1,124 @@
+$comment
+	File created using the following command:
+		vcd file FlipFlopD.msim.vcd -direction
+$end
+$date
+	Tue Nov 15 22:10:33 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module FlipFlopD_vlg_vec_tst $end
+$var reg 1 ! c $end
+$var reg 1 " D $end
+$var wire 1 # Q $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Q~output_o $end
+$var wire 1 , c~input_o $end
+$var wire 1 - D~input_o $end
+$var wire 1 . Q~reg0feeder_combout $end
+$var wire 1 / Q~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+0/
+$end
+#100000
+1!
+1,
+0$
+#140000
+1"
+1-
+1$
+1.
+#180000
+0"
+0-
+0$
+0.
+#200000
+0!
+0,
+1$
+#280000
+1"
+1-
+0$
+1.
+#300000
+1!
+1,
+1$
+1/
+1+
+1#
+#320000
+0"
+0-
+0$
+0.
+#400000
+0!
+0,
+1$
+#480000
+1"
+1-
+0$
+1.
+#500000
+1!
+1,
+1$
+#520000
+0"
+0-
+0$
+0.
+#600000
+0!
+0,
+1$
+#700000
+1!
+1,
+0$
+0/
+0+
+0#
+#800000
+0!
+0,
+1$
+#900000
+1!
+1,
+0$
+#1000000
