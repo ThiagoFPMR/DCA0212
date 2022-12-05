@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Thiago\Workspace\Uni\DCA0212\MagnitudeComparator4Bit\simulation\qsim
+vMagnitudeComparator4Bit
+Z1 IO5NSFSZe9Az6YL>CGTN4C2
+Z2 VWTfXYc3^W24Rm1R9@ASoY3
+Z3 dC:\Users\Thiago\Workspace\Uni\DCA0212\MagnitudeComparator4Bit\simulation\qsim
+Z4 w1670193768
+Z5 8MagnitudeComparator4Bit.vo
+Z6 FMagnitudeComparator4Bit.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@magnitude@comparator4@bit
+!i10b 1
+Z10 !s100 NV9z>=o;BHF5LIiRc4zCk3
+!s85 0
+Z11 !s108 1670193769.358000
+Z12 !s107 MagnitudeComparator4Bit.vo|
+Z13 !s90 -work|work|MagnitudeComparator4Bit.vo|
+!s101 -O0
+vMagnitudeComparator4Bit_vlg_check_tst
+!i10b 1
+!s100 OYT;zbco6HfY2]:OVdKXB3
+I9<IEOgP4MKa?[O@=^>_ZH0
+VI[^mCh@DI^aEZ04]fWl2F1
+R3
+Z14 w1670193767
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 71
+R7
+r1
+!s85 0
+31
+Z17 !s108 1670193769.420000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@magnitude@comparator4@bit_vlg_check_tst
+vMagnitudeComparator4Bit_vlg_sample_tst
+!i10b 1
+!s100 Z:>RgG7jE7XQVF;Oa@F^L0
+Ig5o[hZVck3>]2aLIEgUJA0
+VM0Zflf5G]lkT>a6?BZ0m<0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@magnitude@comparator4@bit_vlg_sample_tst
+vMagnitudeComparator4Bit_vlg_vec_tst
+!i10b 1
+!s100 W<USmdXdY`W816ENIG`5k0
+ILOELzzGKnbPNf^dP>DXf?2
+ViDCAG?V5NC5I8RAXFnTmW2
+R3
+R14
+R15
+R16
+L0 220
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@magnitude@comparator4@bit_vlg_vec_tst

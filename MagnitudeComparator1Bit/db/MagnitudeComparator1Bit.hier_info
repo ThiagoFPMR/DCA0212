@@ -1,0 +1,17 @@
+|MagnitudeComparator1Bit
+A => out_gt.IN0
+A => out_eq.IN0
+A => out_lt.IN0
+B => out_lt.IN1
+B => out_eq.IN1
+B => out_gt.IN1
+in_gt => out_gt.IN1
+in_eq => out_gt.IN1
+in_eq => out_lt.IN1
+in_eq => out_eq.IN1
+in_lt => out_lt.IN1
+out_gt <= out_gt.DB_MAX_OUTPUT_PORT_TYPE
+out_eq <= out_eq.DB_MAX_OUTPUT_PORT_TYPE
+out_lt <= out_lt.DB_MAX_OUTPUT_PORT_TYPE
+
+
